@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@podmate-rds.cxcukm8wu79t.ap-northeast-2.rds.amazonaws.com" uuid="cbe76c2d-bcf1-4ae0-b502-845cdf59804c">
+    <data-source source="LOCAL" name="@podmate-rds.cxcukm8wu79t.ap-northeast-2.rds.amazonaws.com" uuid="60f5338d-3f58-4aa2-98d0-d1b667b99155">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
@@ -13,7 +13,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="f08ed712-aeaf-46f7-899a-5e3c9985035a">
+    <data-source source="LOCAL" name="@localhost" uuid="8705fc5d-88c8-4564-be03-f865ba1b3a39">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>

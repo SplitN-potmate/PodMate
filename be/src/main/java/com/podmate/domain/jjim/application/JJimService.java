@@ -75,9 +75,10 @@ public class JJimService {
         Pod pod = podRepository.findById(podId)
                 .orElseThrow(() -> new PodNotFoundException());
 
-        if(!podUserMappingRepository.existsByPod_IdAndUser_Id(pod.getId(), user.getId())){
+        //찜 취소 에러 주석처리
+        /*if(!podUserMappingRepository.existsByPod_IdAndUser_Id(pod.getId(), user.getId())){
             throw new PodUserMappingNotFoundException();
-        }
+        }*/
         if (jjimRepository.existsByUserIdAndPodId(user.getId(), pod.getId())) {
             jjimRepository.deleteByUserIdAndPodId(user.getId(), pod.getId());
         } else {
