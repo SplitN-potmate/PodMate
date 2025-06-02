@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-242.23726.103">
-    <data-source name="@podmate-rds.cxcukm8wu79t.ap-northeast-2.rds.amazonaws.com" uuid="cbe76c2d-bcf1-4ae0-b502-845cdf59804c">
+    <data-source name="@podmate-rds.cxcukm8wu79t.ap-northeast-2.rds.amazonaws.com" uuid="60f5338d-3f58-4aa2-98d0-d1b667b99155">
       <database-info product="MySQL" version="8.0.41" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.41" exact-driver-version="8.2">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -20,10 +20,11 @@
         <ssh-config-id>0e690c69-a2ff-4acd-9df1-fbfcac7750a0</ssh-config-id>
       </ssh-properties>
     </data-source>
-    <data-source name="@localhost" uuid="f08ed712-aeaf-46f7-899a-5e3c9985035a">
+    <data-source name="@localhost" uuid="8705fc5d-88c8-4564-be03-f865ba1b3a39">
       <database-info product="MySQL" version="8.0.41" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.41" exact-driver-version="8.2">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
       </database-info>
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
